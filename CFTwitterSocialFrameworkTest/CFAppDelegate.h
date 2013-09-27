@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+// Controllers
+#import "CFAuthViewController.h"
+
 @interface CFAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
