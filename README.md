@@ -14,7 +14,7 @@ ACAccountType *twitterType = [_accountStore accountTypeWithAccountTypeIdentifier
             if(granted) {
                 
                 // Get a saved ACAccount
-                **ACAccount *account = [_accountStore accountWithIdentifier:[_model getTwitterAccountIdentifier]];**
+                <strong>ACAccount *account = [_accountStore accountWithIdentifier:[_model getTwitterAccountIdentifier]];</strong>
                 
                 // Parameters
                 NSMutableDictionary *params = [NSMutableDictionary dictionary];
