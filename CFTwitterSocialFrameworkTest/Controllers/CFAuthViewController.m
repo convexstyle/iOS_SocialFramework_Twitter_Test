@@ -273,7 +273,7 @@
                 // Parameters
                 NSMutableDictionary *params = [NSMutableDictionary dictionary];
                 [params setObject:@"Test Message #test" forKey:@"status"];
-                NSString *imagePath = [[NSString alloc] initWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], @"Sample.png"];
+                NSString *imagePath = [[NSString alloc] initWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], @"Sample@2x.png"];
                 UIImage *image      = [[UIImage alloc] initWithContentsOfFile:imagePath];
                 
                 NSURL *requestURL  = [NSURL URLWithString:@"https://api.twitter.com/1.1/statuses/update_with_media.json"];
